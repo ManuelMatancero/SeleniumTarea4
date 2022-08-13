@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Reportes]">
+  <test parallel="none" name="Login(failed)">
+    <classes>
+      <class name="com.tarea4.selenium.Registro">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.tarea4.selenium.Registro -->
+      <class name="com.tarea4.selenium.Contactos">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.tarea4.selenium.Contactos -->
+      <class name="com.tarea4.selenium.SuscribirseCorrecto">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.tarea4.selenium.SuscribirseCorrecto -->
+      <class name="com.tarea4.selenium.Login">
+        <methods>
+          <include name="Login" invocation-numbers="1"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.tarea4.selenium.Login -->
+      <class name="com.tarea4.selenium.SuscribirseError">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.tarea4.selenium.SuscribirseError -->
+      <class name="com.tarea4.selenium.LoginStatus">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.tarea4.selenium.LoginStatus -->
+    </classes>
+  </test> <!-- Login(failed) -->
+</suite> <!-- Failed suite [Reportes] -->

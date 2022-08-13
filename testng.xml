@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Reportes">
+  <test name="Registro">
+    <classes>
+      <class name="com.tarea4.selenium.Registro"/>
+    </classes>
+    </test> 
+  <test name="Login">
+    <classes>
+      <class name="com.tarea4.selenium.Login"/>
+    </classes>
+  </test> 
+    <test name="LoginStatus">
+    <classes>
+      <class name="com.tarea4.selenium.LoginStatus"/>
+    </classes>
+  </test>  
+    <test name="Contacto">
+    <classes>
+      <class name="com.tarea4.selenium.Contactos"/>
+    </classes>
+  </test> 
+   <test name="SuscribirseCorrecto">
+    <classes>
+      <class name="com.tarea4.selenium.SuscribirseCorrecto"/>
+    </classes>
+   </test>
+     <test name="SuscribirseError">
+    <classes>
+      <class name="com.tarea4.selenium.SuscribirseError"/>
+    </classes>
+  </test> 
+</suite> <!-- Reportes -->
